@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="60d99d4a6faf4a309d95e70da17216f9" Name="Diagram1">
+        <EntityTypeShape EntityType="user8Model.Account" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.Grade" Width="1.5" PointX="5.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.Group" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.GroupMember" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.Role" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.Schedule" Width="1.5" PointX="8.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.Subject" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.sysdiagram" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="user8Model.TeacherSubject" Width="1.5" PointX="5.25" PointY="9.125" IsExpanded="true" />
+        <AssociationConnector Association="user8Model.FK_Accounts_Roles" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK_Grades_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK_GroupMembers_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK_Schedule_Teachers" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK_TeacherSubjects_Accounts" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK_Grades_Subjects" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK_GroupMembers_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK_Schedule_Groups" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK_Schedule_Subjects" ManuallyRouted="false" />
+        <AssociationConnector Association="user8Model.FK_TeacherSubjects_Subjects" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
